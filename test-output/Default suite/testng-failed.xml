@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testUtility.ApplyingForAc">
+      <class name="com.Practice.ama">
         <methods>
-          <include name="connectDB"/>
-          <include name="closeDb"/>
-          <include name="launchBrowse"/>
-          <include name="closeBrowser"/>
-          <include name="loginapp"/>
-          <include name="applyingForAc"/>
+          <include name="amazon"/>
         </methods>
-      </class> <!-- com.testUtility.ApplyingForAc -->
+      </class> <!-- com.Practice.ama -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

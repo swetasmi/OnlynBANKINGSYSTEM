@@ -23,6 +23,7 @@ public class BaseClass {
    public DataBaseUtility dlib=new DataBaseUtility();
    public WebDriver driver;
    public static WebDriver sdriver;
+   
 	@BeforeSuite(alwaysRun = true)
 	public void connectDB() throws Throwable
 	{

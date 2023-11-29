@@ -24,6 +24,7 @@ public class BrokenLinks {
 			String each = all.get(i).getAttribute("href");
 			try {
 				URL url=new URL(each);
+				
 				HttpURLConnection httpcon=(HttpURLConnection)url.openConnection();
 				int responseCode = httpcon.getResponseCode();
 				if(responseCode>400)
@@ -36,6 +37,8 @@ public class BrokenLinks {
 			catch (Exception e) {
 				// TODO: handle exception
 				al.add(each);
+				
+				
 			}
 		}
         
